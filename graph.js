@@ -5,7 +5,7 @@ var data, buttonsDiv=document.getElementById("buttons");
 for (var i=1; i<=3; i++) {
   var button = document.form1["data" + i];
   button.onclick = function() {
-    data = this.value+".json";
+    data = this.value;
     alert("OK: data=" + data);
     buttonsDiv.style.display = 'none';
   }
