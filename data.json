@@ -4,49 +4,57 @@
         "id": 1,
         "name": "Laptop",
         "image": "img/sq_laptop_blue.svg",
-        "description": "Laptop desc"
+        "description": "Laptop desc",
+        "category": 0
       },
       {
         "id": 2,
         "name": "Mobile",
         "image": "img/sq_tablet_blue.svg",
-        "description": "Mobile desc"
+        "description": "Mobile desc",
+        "category": 0
       },
       {
         "id": 3,
         "name": "LAN",
         "image": "img/sq_wifi_blue.svg",
-        "description": "Network desc"
+        "description": "Network desc",
+        "category": 1
       },
       {
         "id": 4,
         "name": "WAN",
         "image": "img/sq_router_blue.svg",
-        "description": "Network desc"
+        "description": "Network desc",
+        "category": 2
       },
       {
         "id": 5,
         "name": "Edge",
         "image": "img/sq_router_blue.svg",
-        "description": "Network desc"
+        "description": "Network desc",
+        "category": 2
       },
       {
         "id": 6,
         "name": "Internet",
         "image": "img/sq_globe_blue.svg",
-        "description": "Network desc"
+        "description": "Network desc",
+        "category": 2
       },  
       {
         "id": 7,
         "name": "IaaS",
         "image": "img/sq_server_blue.svg",
-        "description": "IaaS desc"
+        "description": "IaaS desc",
+        "category": 2
       },
       {
         "id": 8,
         "name": "SaaS",
         "image": "img/sq_cloud_blue.svg",
-        "description": "SaaS desc"
+        "description": "SaaS desc",
+        "category": 2
       }
     ],
     "links": [
