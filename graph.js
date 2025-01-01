@@ -209,5 +209,5 @@ var simulation = d3.forceSimulation()
 
 
         function updateData() {
-            alert("Update!");
+            alert(data);
         }
