@@ -22,7 +22,7 @@
 }
 
 .button {
-  background-color: #07c;
+  background-color: rgba(46, 119, 141, 0.651);
   border: 1px solid transparent;
   border-radius: 3px;
   box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
@@ -50,7 +50,7 @@
 .button:hover,
 .button:focus,
 .button:target {
-  background-color: blue;
+  background-color: #07c;
 }
 
 .button:focus {
@@ -58,6 +58,6 @@
 }
 
 .button:active {
-  background-color: blue;
+  background-color: #07c;
   box-shadow: none;
 }
