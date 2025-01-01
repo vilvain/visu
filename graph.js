@@ -7,12 +7,12 @@ for (var i=1; i<=3; i++) {
   button.onclick = function() {
     data = this.value+".json";
 //    alert("OK: data=" + data);
-    buttonsDiv.style.display = 'none';
+//    buttonsDiv.style.display = 'none';
   }
 }
 
 document.lahde.reset.onclick = function() {
-  data = null;
+  data ="data1.json";
 //  alert("Speed reset!");
   buttonsDiv.style.display = 'inline';
   return true;
