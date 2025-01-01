@@ -200,5 +200,6 @@ for (var i=1; i<=2; i++) {
 //    alert(data);
 //    buttonsDiv.style.display = 'none';
     renderoi(data);
+    $("svg").remove();
   }
 }
