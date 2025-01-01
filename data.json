@@ -83,8 +83,7 @@
         "image": "img/sq_cloud_blue.svg",
         "description": "desc",
         "category": 6
-      }
-      ,
+      },
       {
         "id": 13,
         "name": "Visu test server",
