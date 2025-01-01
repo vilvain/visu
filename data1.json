@@ -199,32 +199,32 @@
        {
         "source_id": 1,
         "target_id": 14,
-        "title": "EDR"
+        "title": "AV/EDR"
       },
       {
         "source_id": 1,
         "target_id": 15,
-        "title": "EDR"
+        "title": "AV/EDR"
       },
       {
         "source_id": 1,
         "target_id": 16,
-        "title": "EDR"
+        "title": "EDR/Applocker"
       },
       {
         "source_id": 1,
         "target_id": 17,
-        "title": "EDR"
+        "title": "EDR/Sysmon"
       },
       {
         "source_id": 1,
         "target_id": 18,
-        "title": "EDR"
+        "title": "Firewall/SWG"
       },
       {
         "source_id": 1,
         "target_id": 19,
-        "title": "EDR"
-      },
+        "title": "VPN/ZTNA"
+      }
     ]
   }
