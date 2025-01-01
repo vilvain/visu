@@ -11,6 +11,7 @@ for (var i=1; i<=2; i++) {
   }
 }
 
+function renderoi(data){
 
 var svg = d3.select("svg"),
             width = +svg.attr("width"),
@@ -200,3 +201,4 @@ var simulation = d3.forceSimulation()
            d.fx = null;
            d.fy = null;          
         }
+}
