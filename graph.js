@@ -1,3 +1,23 @@
+//data lahteen valinta
+var lahde = "data.json"
+var lahde, buttonsDiv=document.getElementById("buttons");
+
+for (var i=1; i<=3; i++) {
+  var button = document.form1["data" + i];
+  button.onclick = function() {
+    data = this.value+".json";
+    alert("OK: data=" + data);
+    buttonsDiv.style.display = 'none';
+  }
+}
+
+document.form1.reset.onclick = function() {
+  speed = null;
+  alert("Speed reset!");
+  buttonsDiv.style.display = 'inline';
+  return true;
+}
+
 var svg = d3.select("svg"),
             width = +svg.attr("width"),
             height = +svg.attr("height");
@@ -14,7 +34,8 @@ var simulation = d3.forceSimulation()
     }))
     .force("center", d3.forceCenter(width / 2, height / 2));
 
-    d3.json("data.json").then(function(graph) {
+//    d3.json("data.json").then(function(graph) {    
+    d3.json(data).then(function(graph) {
         graph.links.forEach(function(d){
         d.source = d.source_id;    
         d.target = d.target_id;
