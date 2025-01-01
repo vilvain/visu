@@ -22,7 +22,7 @@
 }
 
 .button {
-  background-color: blue;
+  background-color: #07c;
   border: 1px solid transparent;
   border-radius: 3px;
   box-shadow: rgba(255, 255, 255, .4) 0 1px 0 0 inset;
@@ -49,7 +49,7 @@
 
 .button:hover,
 .button:focus {
-  background-color: #07c;
+  background-color: blue;
 }
 
 .button:focus {
