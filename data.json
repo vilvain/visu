@@ -40,7 +40,7 @@
       {
         "id": 7,
         "name": "IaaS",
-        "image": "img/sq_server_blue.svg.svg",
+        "image": "img/sq_server_blue.svg",
         "description": "IaaS desc"
       },
       {
@@ -58,7 +58,7 @@
         "title": "Endpoint to LAN"
       },
       {
-        "source_id": 1,
+        "source_id": 2,
         "target_id": 4,
         "title": "Endpoint to WAN"
       },
