@@ -5,6 +5,7 @@ var svg = d3.select("svg"),
 var simulation = d3.forceSimulation()
     .force("link", d3.forceLink().id(function(d) { console.log(d); return d.id; }).distance(100))
     .force("charge", d3.forceManyBody().strength(-1000))
+    .force("x", d3.forceX().x(20))
     .force("center", d3.forceCenter(width / 2, height / 2));
 
     d3.json("data.json").then(function(graph) {
