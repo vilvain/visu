@@ -48,7 +48,8 @@
 }
 
 .button:hover,
-.button:focus {
+.button:focus,
+.button:target {
   background-color: blue;
 }
 
