@@ -11,12 +11,6 @@ for (var i=1; i<=2; i++) {
   }
 }
 
-document.lahde.reset.onclick = function() {
-  data = "data1.json";
-//  alert("Speed reset!");
-  buttonsDiv.style.display = 'inline';
-  return true;
-}
 
 var svg = d3.select("svg"),
             width = +svg.attr("width"),
@@ -35,7 +29,7 @@ var simulation = d3.forceSimulation()
     .force("center", d3.forceCenter(width / 2, height / 2));
 
 //    d3.json("data.json").then(function(graph) {    
-//    alert("data=" + data);
+    alert("data=" + data);
     d3.json(data).then(function(graph) {
         graph.links.forEach(function(d){
         d.source = d.source_id;    
