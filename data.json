@@ -125,34 +125,34 @@
         "title": "Internet to IaaS"
       },
       {
-       "source_id": 6,
-       "target_id": 8,
-       "title": "Internet to SaaS"
-     },
+        "source_id": 6,
+        "target_id": 8,
+        "title": "Internet to SaaS"
+      },
      {
-      "source_id": 7,
-      "target_id": 9,
-      "title": "Internet to IaaS"
-    },
-    {
-     "source_id": 7,
-     "target_id": 10,
-      "title": "Internet to IaaS"
-   },
-   {
-    "source_id": 7,
-    "target_id": 11,
-      "title": "Internet to IaaS"
-  },
-  {
-    "source_id": 7,
-    "target_id": 12,
-      "title": "Internet to IaaS"
-  },
-  {
-   "source_id": 9,
-   "target_id": 13,
-   "title": "VPC to VM"
- }
+        "source_id": 7,
+        "target_id": 9,
+        "title": "Internet to IaaS"
+      },
+      {
+        "source_id": 7,
+        "target_id": 10,
+        "title": "Internet to IaaS"
+      },
+      {
+        "source_id": 7,
+        "target_id": 11,
+        "title": "Internet to IaaS"
+      },
+      {
+        "source_id": 7,
+        "target_id": 12,
+        "title": "Internet to IaaS"
+      },
+      {
+        "source_id": 9,
+        "target_id": 13,
+        "title": "VPC to VM"
+       }
     ]
   }
