@@ -2,7 +2,7 @@
     "nodes": [
       {
         "id": 1,
-        "name": "Laptop",
+        "name": "Workstation",
         "image": "img/sq_laptop_blue.svg",
         "description": "Laptop desc",
         "category": 0
