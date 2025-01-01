@@ -87,7 +87,7 @@
       {
         "id": 13,
         "name": "Visu test server",
-        "image": "img/sq_clousq_server_blue.svg",
+        "image": "img/sq_server_blue.svg",
         "description": "desc",
         "category": 7
       }
