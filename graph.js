@@ -206,3 +206,8 @@ var simulation = d3.forceSimulation()
            d.fx = null;
            d.fy = null;          
         }
+
+
+        function updateData() {
+            alert("Update!");
+        }
