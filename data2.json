@@ -1,0 +1,74 @@
+{
+    "nodes": [
+      {
+        "id": 1,
+        "name": "Laptop",
+        "image": "img/sq_laptop_blue.svg",
+        "description": "Laptop desc",
+        "category": 0
+      },
+      {
+        "id": 2,
+        "name": "Mobile",
+        "image": "img/sq_tablet_blue.svg",
+        "description": "Mobile desc",
+        "category": 0
+      },
+      {
+        "id": 3,
+        "name": "LAN",
+        "image": "img/sq_wifi_blue.svg",
+        "description": "Network desc",
+        "category": 1
+      },
+      {
+        "id": 4,
+        "name": "WAN",
+        "image": "img/sq_router_blue.svg",
+        "description": "Network desc",
+        "category": 2
+      },
+      {
+        "id": 5,
+        "name": "Edge",
+        "image": "img/sq_router_blue.svg",
+        "description": "Network desc",
+        "category": 3
+      },
+      {
+        "id": 6,
+        "name": "Internet",
+        "image": "img/sq_globe_blue.svg",
+        "description": "Network desc",
+        "category": 4
+      }
+    ],
+    "links": [
+  
+      {
+        "source_id": 1,
+        "target_id": 3,
+        "title": "Endpoint to LAN"
+      },
+      {
+        "source_id": 2,
+        "target_id": 4,
+        "title": "Endpoint to WAN"
+      },
+      {
+        "source_id": 3,
+        "target_id": 4,
+        "title": "LAN to WAN"
+      },
+       {
+        "source_id": 4,
+        "target_id": 5,
+        "title": "WAN to Edge"
+      },
+      {
+        "source_id": 5,
+        "target_id": 6,
+        "title": "Edge to Internet"
+        }
+    ]
+  }
