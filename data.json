@@ -55,6 +55,42 @@
         "image": "img/sq_cloud_blue.svg",
         "description": "SaaS desc",
         "category": 5
+      },
+      {
+        "id": 9,
+        "name": "Microsoft Azure",
+        "image": "img/sq_cloud_blue.svg",
+        "description": "desc",
+        "category": 6
+      },
+      {
+        "id": 10,
+        "name": "Amazon Web Services",
+        "image": "img/sq_cloud_blue.svg",
+        "description": "desc",
+        "category": 6
+      },
+      {
+        "id": 11,
+        "name": "Google Cloud Platform",
+        "image": "img/sq_cloud_blue.svg",
+        "description": "desc",
+        "category": 6
+      },
+      {
+        "id": 12,
+        "name": "Oracle Cloud Infrastructure",
+        "image": "img/sq_cloud_blue.svg",
+        "description": "desc",
+        "category": 6
+      }
+      ,
+      {
+        "id": 13,
+        "name": "Visu test server",
+        "image": "img/sq_clousq_server_blue.svg",
+        "description": "desc",
+        "category": 7
       }
     ],
     "links": [
@@ -93,6 +129,31 @@
        "source_id": 6,
        "target_id": 8,
        "title": "Internet to SaaS"
-     }
+     },
+     {
+      "source_id": 7,
+      "target_id": 9,
+      "title": "Internet to IaaS"
+    },
+    {
+     "source_id": 7,
+     "target_id": 10,
+      "title": "Internet to IaaS"
+   },
+   {
+    "source_id": 7,
+    "target_id": 11,
+      "title": "Internet to IaaS"
+  },
+  {
+    "source_id": 7,
+    "target_id": 12,
+      "title": "Internet to IaaS"
+  },
+  {
+   "source_id": 9,
+   "target_id": 13,
+   "title": "VPC to VM"
+ }
     ]
   }
