@@ -12,7 +12,7 @@ for (var i=1; i<=3; i++) {
 }
 
 document.form1.reset.onclick = function() {
-  speed = null;
+  data = null;
   alert("Speed reset!");
   buttonsDiv.style.display = 'inline';
   return true;
