@@ -3,7 +3,7 @@
 var data, buttonsDiv=document.getElementById("buttons");
 
 for (var i=1; i<=3; i++) {
-  var button = document.form1["data" + i];
+  var button = document.lahde["data" + i];
   button.onclick = function() {
     data = this.value;
     alert("OK: data=" + data);
@@ -11,7 +11,7 @@ for (var i=1; i<=3; i++) {
   }
 }
 
-document.form1.reset.onclick = function() {
+document.lahde.reset.onclick = function() {
   data = null;
   alert("Speed reset!");
   buttonsDiv.style.display = 'inline';
