@@ -1,11 +1,17 @@
 var svg = d3.select("svg"),
             width = +svg.attr("width"),
             height = +svg.attr("height");
-        
+
+//kategorioiden x koordinaatioot, eka 0, toka 1 jne            
+var xCenter = [100, 300, 500];            
+
 var simulation = d3.forceSimulation()
     .force("link", d3.forceLink().id(function(d) { console.log(d); return d.id; }).distance(100))
     .force("charge", d3.forceManyBody().strength(-1000))
-//    .force("x", d3.forceX().x(200))
+    //layoutti per kategoria
+    .force("x", d3.forceX().x(function(d){
+        return xCenter[d.category];
+    }))
     .force("center", d3.forceCenter(width / 2, height / 2));
 
     d3.json("data.json").then(function(graph) {
