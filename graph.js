@@ -17,7 +17,7 @@ var simulation = d3.forceSimulation()
     .force("center", d3.forceCenter(width / 2, height / 2));
 
 //    d3.json("data.json").then(function(graph) {    
-    alert("data=" + data);
+//    alert("data=" + data);
     d3.json(data).then(function(graph) {
         graph.links.forEach(function(d){
         d.source = d.source_id;    
