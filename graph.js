@@ -1,5 +1,5 @@
 //data lahteen valinta
-var data = "data.json"
+//var data = "data.json"
 var data, buttonsDiv=document.getElementById("buttons");
 
 for (var i=1; i<=3; i++) {
