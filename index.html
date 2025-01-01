@@ -7,20 +7,21 @@
 </head>
 <body>
 
-    <script type="text/javascript">
+    <form name="lahde">
+        <span id="buttons">
+          <input type="button" name="data1" value="data1" class="button"/>
+          <input type="button" name="data2" value="data2" class="button"/>
+        </span>
+      </form>    
+
+      <script type="text/javascript">
         $('input[type="button"]').click(function(){
             $('input[type="button"].valittu').removeClass('valittu')
                 $(this).addClass('valittu');
         });
         </script>
 
-    <form name="lahde">
-        <span id="buttons">
-          <input type="button" name="data1" value="data1" class="button"/>
-          <input type="button" name="data2" value="data2" class="button"/>
-        </span>
-        <input name="reset" type="reset" class="button"/>
-      </form>    
+
     <svg width="1800" height="700"></svg>
     <script src="graph.js"></script>
 </body>
