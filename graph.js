@@ -12,7 +12,7 @@ for (var i=1; i<=3; i++) {
 }
 
 document.lahde.reset.onclick = function() {
-  data ="data1.json";
+  data = "data1.json";
 //  alert("Speed reset!");
   buttonsDiv.style.display = 'inline';
   return true;
