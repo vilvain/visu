@@ -6,7 +6,7 @@ for (var i=1; i<=2; i++) {
   var button = document.lahde["data" + i];
   button.onclick = function() {
     data = this.value+".json";
-//    alert("OK: data=" + data);
+    alert(data);
 //    buttonsDiv.style.display = 'none';
   }
 }
@@ -205,9 +205,4 @@ var simulation = d3.forceSimulation()
            if (!event.active) simulation.alphaTarget(0);
            d.fx = null;
            d.fy = null;          
-        }
-
-
-        function updateData() {
-            alert(data);
         }
