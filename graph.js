@@ -6,14 +6,14 @@ for (var i=1; i<=3; i++) {
   var button = document.lahde["data" + i];
   button.onclick = function() {
     data = this.value+".json";
-    alert("OK: data=" + data);
+//    alert("OK: data=" + data);
     buttonsDiv.style.display = 'none';
   }
 }
 
 document.lahde.reset.onclick = function() {
   data = null;
-  alert("Speed reset!");
+//  alert("Speed reset!");
   buttonsDiv.style.display = 'inline';
   return true;
 }
@@ -35,6 +35,7 @@ var simulation = d3.forceSimulation()
     .force("center", d3.forceCenter(width / 2, height / 2));
 
 //    d3.json("data.json").then(function(graph) {    
+    alert("data=" + data);
     d3.json(data).then(function(graph) {
         graph.links.forEach(function(d){
         d.source = d.source_id;    
