@@ -1,5 +1,8 @@
 function renderoi(data){
 
+var svg = d3.select("svg");
+svg.selectAll("*").remove();
+
 var svg = d3.select("svg"),
             width = +svg.attr("width"),
             height = +svg.attr("height");
@@ -200,6 +203,5 @@ for (var i=1; i<=2; i++) {
 //    alert(data);
 //    buttonsDiv.style.display = 'none';
     renderoi(data);
-    $("svg").remove();
   }
 }
