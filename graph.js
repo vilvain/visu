@@ -1,6 +1,6 @@
 //data lahteen valinta
-var lahde = "data.json"
-var lahde, buttonsDiv=document.getElementById("buttons");
+var data = "data.json"
+var data, buttonsDiv=document.getElementById("buttons");
 
 for (var i=1; i<=3; i++) {
   var button = document.form1["data" + i];
