@@ -4,22 +4,19 @@
         "id": 1,
         "name": "Laptop",
         "image": "img/sq_laptop_blue.svg",
-        "description": "Laptop desc",
-        "category": 0
+        "description": "Laptop desc"
       },
       {
         "id": 2,
         "name": "Mobile",
         "image": "img/sq_tablet_blue.svg",
-        "description": "Mobile desc",
-        "category": 0
+        "description": "Mobile desc"
       },
       {
         "id": 3,
         "name": "LAN",
         "image": "img/sq_wifi_blue.svg",
-        "description": "Network desc",
-        "category": 1
+        "description": "Network desc"
       },
       {
         "id": 4,
