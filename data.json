@@ -9,110 +9,83 @@
       },
       {
         "id": 2,
-        "name": "Rack 2",
-        "image": "img/rack2.png",
-        "description": "Rack 2 description"
+        "name": "Mobile",
+        "image": "img/sq_tablet_blue.svg",
+        "description": "Mobile desc"
       },
       {
         "id": 3,
-        "name": "Tower 2",
-        "image": "img/tower.png",
-        "description": "Rack 3 description"
+        "name": "LAN",
+        "image": "img/sq_wifi_blue.svg",
+        "description": "Network desc"
       },
       {
         "id": 4,
-        "name": "Tower 1",
-        "image": "img/tower.png",
-        "description": "Rack 4 description"
+        "name": "WAN",
+        "image": "img/sq_router_blue.svg",
+        "description": "Network desc"
       },
       {
         "id": 5,
-        "name": "Rack 5",
-        "image": "img/rack2.png",
-        "description": "Rack 5 description"
+        "name": "Edge",
+        "image": "img/sq_router_blue.svg",
+        "description": "Network desc"
       },
       {
         "id": 6,
-        "name": "Rack 6",
-        "image": "img/rack2.png",
-        "description": "Rack 6 description"
-      },
+        "name": "Internet",
+        "image": "img/sq_globe_blue.svg",
+        "description": "Network desc"
+      },  
       {
         "id": 7,
-        "name": "Tower 3",
-        "image": "img/tower.png",
-        "description": "Rack 7 description"
+        "name": "IaaS",
+        "image": "img/sq_server_blue.svg.svg",
+        "description": "IaaS desc"
       },
       {
         "id": 8,
-        "name": "Tower 4",
-        "image": "img/tower.png",
-        "description": "Rack 8 description"
-      },
-      {
-        "id": 9,
-        "name": "Rack 9",
-        "image": "img/rack2.png",
-        "description": "Rack 9 description"
-      },
-      {
-        "id": 10,
-        "name": "Rack 10",
-        "image": "img/tower.png",
-        "description": "Rack 10 description"
+        "name": "SaaS",
+        "image": "img/sq_cloud_blue.svg",
+        "description": "SaaS desc"
       }
     ],
     "links": [
   
       {
         "source_id": 1,
-        "target_id": 2,
-        "title": "link 1-2"
-      },
-      {
-        "source_id": 2,
         "target_id": 3,
-        "title": "link 2-3"
+        "title": "Endpoint to LAN"
       },
       {
-        "source_id": 2,
+        "source_id": 1,
         "target_id": 4,
-        "title": "link 2-4"
-      },
-       {
-        "source_id": 2,
-        "target_id": 7,
-        "title": "link 7-2"
-      },
-      {
-        "source_id": 3,
-        "target_id": 7,
-        "title": "link 3-7"
-        },
-       {
-        "source_id": 8,
-        "target_id": 3,
-        "title": "link 8-3"
-      },
-      {
-       "source_id": 8,
-       "target_id": 7,
-       "title": "link 8-7"
-     },
-     {
-        "source_id": 8,
-        "target_id": 4,
-        "title": "link 8-4"
+        "title": "Endpoint to WAN"
       },
       {
         "source_id": 3,
         "target_id": 4,
-        "title": "link 3-4"
+        "title": "LAN to WAN"
+      },
+       {
+        "source_id": 4,
+        "target_id": 5,
+        "title": "WAN to Edge"
       },
       {
         "source_id": 5,
-        "target_id": 10,
-        "title": "link 5-10"
-      }
+        "target_id": 6,
+        "title": "Edge to Internet"
+        },
+       {
+        "source_id": 6,
+        "target_id": 7,
+        "title": "Internet to IaaS"
+      },
+      {
+       "source_id": 6,
+       "target_id": 8,
+       "title": "Internet to SaaS"
+     }
     ]
   }
