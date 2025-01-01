@@ -1,8 +1,11 @@
 function renderoi(data){
 
+//poista vanha svg kuva
 var svg = d3.select("svg");
 svg.selectAll("*").remove();
 
+
+//itse svg luonti alkaa
 var svg = d3.select("svg"),
             width = +svg.attr("width"),
             height = +svg.attr("height");
