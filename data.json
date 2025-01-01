@@ -2,9 +2,9 @@
     "nodes": [
       {
         "id": 1,
-        "name": "Rack 1",
-        "image": "https://github.com/ecceman/affinity/blob/master/svg/square/blue/sq_laptop_blue.svg",
-        "description": "Rack 1 description"
+        "name": "Laptop",
+        "image": "img/sq_laptop_blue.svg",
+        "description": "Laptop desc"
 
       },
       {
