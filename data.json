@@ -33,28 +33,28 @@
         "name": "Edge",
         "image": "img/sq_router_blue.svg",
         "description": "Network desc",
-        "category": 2
+        "category": 3
       },
       {
         "id": 6,
         "name": "Internet",
         "image": "img/sq_globe_blue.svg",
         "description": "Network desc",
-        "category": 2
+        "category": 4
       },  
       {
         "id": 7,
         "name": "IaaS",
         "image": "img/sq_server_blue.svg",
         "description": "IaaS desc",
-        "category": 2
+        "category": 5
       },
       {
         "id": 8,
         "name": "SaaS",
         "image": "img/sq_cloud_blue.svg",
         "description": "SaaS desc",
-        "category": 2
+        "category": 5
       }
     ],
     "links": [
