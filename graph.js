@@ -1,16 +1,3 @@
-//data lahteen valinta
-var data = "data1.json"
-var data, buttonsDiv=document.getElementById("buttons");
-
-for (var i=1; i<=2; i++) {
-  var button = document.lahde["data" + i];
-  button.onclick = function() {
-    data = this.value+".json";
-    alert(data);
-//    buttonsDiv.style.display = 'none';
-  }
-}
-
 function renderoi(data){
 
 var svg = d3.select("svg"),
@@ -201,4 +188,17 @@ var simulation = d3.forceSimulation()
            d.fx = null;
            d.fy = null;          
         }
+}
+//data lahteen valinta
+var data = "data1.json"
+var data, buttonsDiv=document.getElementById("buttons");
+
+for (var i=1; i<=2; i++) {
+  var button = document.lahde["data" + i];
+  button.onclick = function() {
+    data = this.value+".json";
+//    alert(data);
+//    buttonsDiv.style.display = 'none';
+    renderoi(data);
+  }
 }
