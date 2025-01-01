@@ -3,133 +3,133 @@
       {
         "id": 1,
         "name": "Workstation",
-        "image": "img/sq_laptop_blue.svg",
+        "image": "img/blue/sq_laptop_blue.svg",
         "description": "Laptop desc",
         "category": 0
       },
       {
         "id": 2,
         "name": "Mobile",
-        "image": "img/sq_tablet_blue.svg",
+        "image": "img/blue/sq_tablet_blue.svg",
         "description": "Mobile desc",
         "category": 0
       },
       {
         "id": 3,
         "name": "LAN",
-        "image": "img/sq_wifi_blue.svg",
+        "image": "img/blue/sq_wifi_blue.svg",
         "description": "Network desc",
         "category": 1
       },
       {
         "id": 4,
         "name": "WAN",
-        "image": "img/sq_router_blue.svg",
+        "image": "img/blue/sq_router_blue.svg",
         "description": "Network desc",
         "category": 2
       },
       {
         "id": 5,
         "name": "Edge",
-        "image": "img/sq_router_blue.svg",
+        "image": "img/blue/sq_router_blue.svg",
         "description": "Network desc",
         "category": 3
       },
       {
         "id": 6,
         "name": "Internet",
-        "image": "img/sq_globe_blue.svg",
+        "image": "img/blue/sq_globe_blue.svg",
         "description": "Network desc",
         "category": 4
       },  
       {
         "id": 7,
         "name": "IaaS",
-        "image": "img/sq_server_blue.svg",
+        "image": "img/blue/sq_server_blue.svg",
         "description": "IaaS desc",
         "category": 5
       },
       {
         "id": 8,
         "name": "SaaS",
-        "image": "img/sq_cloud_blue.svg",
+        "image": "img/blue/sq_cloud_blue.svg",
         "description": "SaaS desc",
         "category": 5
       },
       {
         "id": 9,
         "name": "Microsoft Azure",
-        "image": "img/sq_cloud_blue.svg",
+        "image": "img/blue/sq_cloud_blue.svg",
         "description": "desc",
         "category": 6
       },
       {
         "id": 10,
         "name": "Amazon Web Services",
-        "image": "img/sq_cloud_blue.svg",
+        "image": "img/blue/sq_cloud_blue.svg",
         "description": "desc",
         "category": 6
       },
       {
         "id": 11,
         "name": "Google Cloud Platform",
-        "image": "img/sq_cloud_blue.svg",
+        "image": "img/blue/sq_cloud_blue.svg",
         "description": "desc",
         "category": 6
       },
       {
         "id": 12,
         "name": "Oracle Cloud Infrastructure",
-        "image": "img/sq_cloud_blue.svg",
+        "image": "img/blue/sq_cloud_blue.svg",
         "description": "desc",
         "category": 6
       },
       {
         "id": 13,
         "name": "Visu test server",
-        "image": "img/sq_server_blue.svg",
+        "image": "img/blue/sq_server_blue.svg",
         "description": "desc",
         "category": 7
       },
       {
         "id": 14,
         "name": "File fingerprint check",
-        "image": "img/sq_fingerprint_blue.svg",
+        "image": "img/blue/sq_fingerprint_blue.svg",
         "description": "Calculating hashes (fingerprints) of files to be run and comparing them against known bad ones",
         "category": 0
       },
       {
         "id": 15,
         "name": "File content check",
-        "image": "img/sq_fingerprint_blue.svg",
+        "image": "img/blue/sq_fingerprint_blue.svg",
         "description": "Regex checking inside of files for known bad byte sequences",
         "category": 0
       },
       {
         "id": 16,
         "name": "Process allow list",
-        "image": "img/sq_fingerprint_blue.svg",
+        "image": "img/blue/sq_fingerprint_blue.svg",
         "description": "Only allowing allowlisted processes to be started by user",
         "category": 0
       },
       {
         "id": 17,
         "name": "Process logging",
-        "image": "img/sq_inspect_blue.svg",
+        "image": "img/blue/sq_inspect_blue.svg",
         "description": "Logging process meta data like process name, PID, user account, starting process, start parameters, connections",
         "category": 0
       },
       {
         "id": 18,
         "name": "Network allow list",
-        "image": "img/sq_firewall_blue.svg",
+        "image": "img/blue/sq_firewall_blue.svg",
         "description": "Only allowing allowlisted connections in and out",
         "category": 0
       },
       {
         "id": 19,
         "name": "Secure connectiong to private resources",
-        "image": "img/sq_firewall_blue.svg",
+        "image": "img/blue/sq_firewall_blue.svg",
         "description": "Encrypting and tunneling connections to private resources",
         "category": 0
       }
