@@ -207,7 +207,7 @@ for (var i=1; i<=3; i++) {
     data = this.value+".json";
     fetch(data)
         .then((response) => response.json())
-        .then((json) =>  alert(json));
+        .then((json) =>  alert(json.nodes[1].tags));
 //    alert(data);
 //    buttonsDiv.style.display = 'none';
     renderoi(data);
