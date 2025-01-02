@@ -203,7 +203,7 @@ var data = "data1.json";
 var data, buttonsDiv=document.getElementById("buttons");
 var tagit = "workstation";
 
-renderoi(data);
+renderoi(data,tagit);
 
 for (var i=1; i<=3; i++) {
   var button = document.data ["data" + i];
