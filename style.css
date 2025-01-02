@@ -63,7 +63,11 @@
   box-shadow: none;
 }
 
-.body {
+body {
+    font: 12px sans-serif;
+    color: black;
+}
+h1 {
     font: 12px sans-serif;
     color: #00BFFF;
 }
