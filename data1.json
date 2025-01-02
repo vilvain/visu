@@ -143,14 +143,14 @@
       {
         "id": 21,
         "name": "Network encryption",
-        "image": "img/red/sq_hub_red.svg.svg",
+        "image": "img/red/sq_hub_red.svg",
         "description": "Network level encryption of the traffic to the Edge",
         "category": 1
       },
       {
         "id": 22,
         "name": "Network encryption",
-        "image": "img/red/sq_hub_red_svg.svg",
+        "image": "img/red/sq_hub_red.svg",
         "description": "Network level encryption of the traffic to the Edge",
         "category": 2
       }
