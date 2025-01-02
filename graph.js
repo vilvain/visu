@@ -1,4 +1,4 @@
-function renderoi(data,tags){
+function renderoi(data,tagit){
 
 //poista vanha svg kuva
 var svg = d3.select("svg");
@@ -26,7 +26,7 @@ var simulation = d3.forceSimulation()
 //    alert("data=" + data);
     d3.json(data).then(function(graph) {
         graph.links.forEach(function(d){
-        if(d.tags.includes(tags))
+        if(d.tags.includes(tagit))
         {
             d.source = d.source_id;    
             d.target = d.target_id;
@@ -213,6 +213,6 @@ for (var i=1; i<=3; i++) {
     //    .then((json) =>  alert(json.nodes[1].tags));
 //    alert(data);
 //    buttonsDiv.style.display = 'none';
-    renderoi(data,tags);
+    renderoi(data,tagit);
   }
 }
