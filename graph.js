@@ -27,7 +27,7 @@ var simulation = d3.forceSimulation()
     d3.json(data).then(function(graph) {
         graph.links.forEach(function(d){
             //alert(d.tags);
-        if(d.tags.includes(tagit))
+        if(d.tags.includes("workstation"))
         {
             d.source = d.source_id;    
             d.target = d.target_id;
