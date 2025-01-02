@@ -172,7 +172,7 @@ var simulation = d3.forceSimulation()
             });
             
             label
-                .attr("x", function(d) { return d.x - 22; })
+                .attr("x", function(d) { return d.x - 20; })
                 .attr("y", function (d) { return d.y + 35; })
                 .style("font-size", "12px").style("fill", "#4393c3");
           }

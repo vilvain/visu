@@ -22,6 +22,7 @@
 }
 
 .button {
+  font: 6px sans-serif;
   background-color: #00BFFF;
   border: 1px solid transparent;
   border-radius: 3px;
@@ -52,10 +53,6 @@
 .button:target {
   background-color: #07c;
 }
-
-.valittu {
-    background-color: #07c;
-  }
 
 .button:focus {
   box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
