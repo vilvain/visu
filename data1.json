@@ -160,6 +160,27 @@
         "image": "img/blue/sq_wifi_blue.svg",
         "description": "Connectivity via Wifi or cable to location's network",
         "category": 1
+      },
+      {
+        "id": 24,
+        "name": "Flow logging",
+        "image": "img/sq_wifi_blue.svg",
+        "description": "Logging of connections' meta data",
+        "category": 0
+      },
+      {
+        "id": 25,
+        "name": "Flow logging",
+        "image": "img/red/sq_wifi_red.svg",
+        "description": "Logging of connections' meta data",
+        "category": 1
+      },
+      {
+        "id": 26,
+        "name": "Flow logging",
+        "image": "img/red/sq_wifi_red.svg",
+        "description": "Logging of connections' meta data",
+        "category": 2
       }
     ],
     "links": [
@@ -283,6 +304,21 @@
         "source_id": 1,
         "target_id": 23,
         "title": "L2L tunnel"
+      },
+      {
+        "source_id": 1,
+        "target_id": 24,
+        "title": "Logging"
+      },
+      {
+        "source_id": 2,
+        "target_id": 25,
+        "title": "Logging"
+      },
+      {
+        "source_id": 3,
+        "target_id": 6,
+        "title": "Logging"
       }
     ]
   }
