@@ -292,11 +292,6 @@
         "title": "Firewall/SWG"
       },
       {
-        "source_id": 28,
-        "target_id": 19,
-        "title": "VPN/ZTNA"
-      },
-      {
         "source_id": 29,
         "target_id": 19,
         "title": "VPN/ZTNA"
