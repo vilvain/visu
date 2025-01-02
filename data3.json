@@ -5,203 +5,203 @@
         "name": "Workstation",
         "image": "img/blue/sq_laptop_blue.svg",
         "description": "Client endpoint, laptop or desktop",
-        "category": 0
+        "xaxis": 0
       },
       {
         "id": 2,
         "name": "Mobile",
         "image": "img/blue/sq_tablet_blue.svg",
         "description": "Client endpoint, cell phone or tablet",
-        "category": 0
+        "xaxis": 0
       },
       {
         "id": 3,
         "name": "Office LAN",
         "image": "img/blue/sq_wifi_blue.svg",
         "description": "Connectivity via Wifi or cable to location's network",
-        "category": 1
+        "xaxis": 1
       },
       {
         "id": 4,
         "name": "WAN",
         "image": "img/blue/sq_router_blue.svg",
         "description": "Connectivity from location's network to datacenter",
-        "category": 2
+        "xaxis": 2
       },
       {
         "id": 5,
         "name": "Edge",
         "image": "img/blue/sq_router_blue.svg",
         "description": "First datacenter that processes the traffic",
-        "category": 3
+        "xaxis": 3
       },
       {
         "id": 6,
         "name": "Internet",
         "image": "img/blue/sq_globe_blue.svg",
         "description": "General network of datacenters",
-        "category": 4
+        "xaxis": 4
       },  
       {
         "id": 7,
         "name": "IaaS",
         "image": "img/blue/sq_server_blue.svg",
         "description": "Datacenter that hosts the application, platform hosted by someone else",
-        "category": 5
+        "xaxis": 5
       },
       {
         "id": 8,
         "name": "SaaS",
         "image": "img/blue/sq_cloud_blue.svg",
         "description": "Datacenter that hosts the application, platform and applications hosted by someone else",
-        "category": 5
+        "xaxis": 5
       },
       {
         "id": 9,
         "name": "Microsoft Azure",
         "image": "img/blue/sq_cloud_blue.svg",
         "description": "Microsoft's IaaS hosting",
-        "category": 6
+        "xaxis": 6
       },
       {
         "id": 10,
         "name": "Amazon Web Services",
         "image": "img/blue/sq_cloud_blue.svg",
         "description": "Amazon's IaaS hosting ",
-        "category": 6
+        "xaxis": 6
       },
       {
         "id": 11,
         "name": "Google Cloud Platform",
         "image": "img/blue/sq_cloud_blue.svg",
         "description": "Google's IaaS hosting",
-        "category": 6
+        "xaxis": 6
       },
       {
         "id": 12,
         "name": "Oracle Cloud Infrastructure",
         "image": "img/blue/sq_cloud_blue.svg",
         "description": "Oracle's IaaS hosting",
-        "category": 6
+        "xaxis": 6
       },
       {
         "id": 13,
         "name": "Visu test server",
         "image": "img/blue/sq_server_blue.svg",
         "description": "hosted in MS Az",
-        "category": 7
+        "xaxis": 7
       },
       {
         "id": 14,
         "name": "File fingerprint check",
         "image": "img/green/sq_fingerprint_green.svg",
         "description": "Calculating hashes (fingerprints) of files to be run and comparing them against known bad ones",
-        "category": 0
+        "xaxis": 0
       },
       {
         "id": 15,
         "name": "File content check",
         "image": "img/green/sq_fingerprint_green.svg",
         "description": "Regex checking inside of files for known bad byte sequences",
-        "category": 0
+        "xaxis": 0
       },
       {
         "id": 16,
         "name": "Process allow list",
         "image": "img/green/sq_fingerprint_green.svg",
         "description": "Only allowing allowlisted processes to be started by user",
-        "category": 0
+        "xaxis": 0
       },
       {
         "id": 17,
         "name": "Process logging",
         "image": "img/blue/sq_inspect_blue.svg",
         "description": "Logging process meta data like process name, PID, user account, starting process, start parameters, connections",
-        "category": 0
+        "xaxis": 0
       },
       {
         "id": 18,
         "name": "Network allow list",
         "image": "img/blue/sq_firewall_blue.svg",
         "description": "Only allowing allowlisted connections in and out",
-        "category": 0
+        "xaxis": 0
       },
       {
         "id": 19,
         "name": "Secure connectiong to private resources",
         "image": "img/blue/sq_firewall_blue.svg",
         "description": "Encrypting and tunneling connections to private resources",
-        "category": 0
+        "xaxis": 0
       },
       {
         "id": 20,
         "name": "Device authentication",
         "image": "img/green/sq_user_green.svg",
         "description": "802.1x authentication to connect to the network",
-        "category": 1
+        "xaxis": 1
       },
       {
         "id": 21,
         "name": "Network encryption",
         "image": "img/red/sq_wlc_red.svg",
         "description": "Network level encryption of the traffic to the Edge",
-        "category": 1
+        "xaxis": 1
       },
       {
         "id": 22,
         "name": "Network encryption",
         "image": "img/red/sq_wlc_red.svg",
         "description": "Network level encryption of the traffic to the Edge",
-        "category": 2
+        "xaxis": 2
       },
       {
         "id": 27,
         "name": "Network encryption",
         "image": "img/red/sq_wlc_red.svg",
         "description": "Network level encryption of the traffic to the Edge",
-        "category": 2
+        "xaxis": 2
       },
       {
         "id": 23,
         "name": "Remote LAN",
         "image": "img/blue/sq_wifi_blue.svg",
         "description": "Connectivity via Wifi or cable to location's network",
-        "category": 1
+        "xaxis": 1
       },
       {
         "id": 24,
         "name": "Flow logging",
         "image": "img/blue/sq_xml_blue.svg",
         "description": "Logging of connections' meta data",
-        "category": 0
+        "xaxis": 0
       },
       {
         "id": 25,
         "name": "Flow logging",
         "image": "img/red/sq_xml_red.svg",
         "description": "Logging of connections' meta data",
-        "category": 1
+        "xaxis": 1
       },
       {
         "id": 26,
         "name": "Flow logging",
         "image": "img/red/sq_xml_red.svg",
         "description": "Logging of connections' meta data",
-        "category": 2
+        "xaxis": 2
       },
       {
         "id": 28,
         "name": "Visibility",
         "image": "img/blue/sq_inspect_blue.svg",
         "description": "Visibility to transactions, usually as logs",
-        "category": 0
+        "xaxis": 0
       },
       {
         "id": 29,
         "name": "Control",
         "image": "img/blue/sq_cog_blue.svg",
         "description": "Control of transactions, usually as hardened configurations",
-        "category": 0
+        "xaxis": 0
       }
     ],
     "links": [

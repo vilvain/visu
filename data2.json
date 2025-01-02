@@ -5,42 +5,42 @@
         "name": "Workstation",
         "image": "img/blue/sq_laptop_blue.svg",
         "description": "Laptop desc",
-        "category": 0
+        "xaxis": 0
       },
       {
         "id": 2,
         "name": "Mobile",
         "image": "img/blue/sq_tablet_blue.svg",
         "description": "Mobile desc",
-        "category": 0
+        "xaxis": 0
       },
       {
         "id": 3,
         "name": "LAN",
         "image": "img/blue/sq_wifi_blue.svg",
         "description": "Network desc",
-        "category": 1
+        "xaxis": 1
       },
       {
         "id": 4,
         "name": "WAN",
         "image": "img/blue/sq_router_blue.svg",
         "description": "Network desc",
-        "category": 2
+        "xaxis": 2
       },
       {
         "id": 5,
         "name": "Edge",
         "image": "img/blue/sq_router_blue.svg",
         "description": "Network desc",
-        "category": 3
+        "xaxis": 3
       },
       {
         "id": 6,
         "name": "Internet",
         "image": "img/blue/sq_globe_blue.svg",
         "description": "Network desc",
-        "category": 4
+        "xaxis": 4
       }
     ],
     "links": [

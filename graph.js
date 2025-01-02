@@ -11,14 +11,14 @@ var svg = d3.select("svg"),
             height = +svg.attr("height");
 
 //kategorioiden x koordinaatioot, eka 0, toka 1 jne            
-var xCenter = [0, 100, 300, 500, 700, 900, 1100, 1300, 1500];            
+var xCenter = [0, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800];            
 
 var simulation = d3.forceSimulation()
     .force("link", d3.forceLink().id(function(d) { console.log(d); return d.id; }).distance(100))
     .force("charge", d3.forceManyBody().strength(-1000))
     //layoutti per kategoria
     .force("x", d3.forceX().x(function(d){
-        return xCenter[d.category];
+        return xCenter[d.xaxis];
     }))
     .force("center", d3.forceCenter(width / 2, height / 2));
 
