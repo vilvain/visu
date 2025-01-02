@@ -255,12 +255,12 @@
        {
         "source_id": 1,
         "target_id": 14,
-        "title": "AV/EDR"
+        "title": "EDR/AV"
       },
       {
         "source_id": 1,
         "target_id": 15,
-        "title": "AV/EDR"
+        "title": "EDR/AV"
       },
       {
         "source_id": 1,
