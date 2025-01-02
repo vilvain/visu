@@ -101,14 +101,14 @@
       {
         "id": 15,
         "name": "File content check",
-        "image": "img/blue/sq_fingerprint_green.svg",
+        "image": "img/green/sq_fingerprint_green.svg",
         "description": "Regex checking inside of files for known bad byte sequences",
         "category": 0
       },
       {
         "id": 16,
         "name": "Process allow list",
-        "image": "img/blue/sq_fingerprint_blue.svg",
+        "image": "img/green/sq_fingerprint_blue.svg",
         "description": "Only allowing allowlisted processes to be started by user",
         "category": 0
       },
