@@ -30,7 +30,21 @@
       },
       {
         "id": 4,
-        "name": "WAN",
+        "name": "Office WAN",
+        "image": "img/blue/sq_router_blue.svg",
+        "description": "Connectivity from location's network to datacenter",
+        "xaxis": 5
+      },
+      {
+        "id": 28,
+        "name": "Remote WAN",
+        "image": "img/blue/sq_router_blue.svg",
+        "description": "Connectivity from location's network to datacenter",
+        "xaxis": 5
+      },
+      {
+        "id": 29,
+        "name": "Mobile WAN",
         "image": "img/blue/sq_router_blue.svg",
         "description": "Connectivity from location's network to datacenter",
         "xaxis": 5
@@ -199,15 +213,25 @@
       },
       {
         "source_id": 2,
-        "target_id": 4,
+        "target_id": 29,
         "title": "Endpoint to WAN"
+      },
+      {
+        "source_id": 1,
+        "target_id": 23,
+        "title": "Endpoint to LAN"
       },
       {
         "source_id": 3,
         "target_id": 4,
         "title": "LAN to WAN"
       },
-       {
+      {
+        "source_id": 23,
+        "target_id": 28,
+        "title": "LAN to WAN"
+      },
+      {
         "source_id": 4,
         "target_id": 5,
         "title": "WAN to Edge"
@@ -309,11 +333,6 @@
       },
       {
         "source_id": 1,
-        "target_id": 23,
-        "title": "Endpoint to LAN"
-      },
-      {
-        "source_id": 1,
         "target_id": 24,
         "title": "Logging"
       },
@@ -326,11 +345,6 @@
         "source_id": 4,
         "target_id": 26,
         "title": "Logging"
-      },
-      {
-        "source_id": 23,
-        "target_id": 4,
-        "title": "LAN to WAN"
       }
     ]
   }
