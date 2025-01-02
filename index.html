@@ -10,16 +10,22 @@
 
     <h1>Zero Trust Architecture - Topology, Controls and Visibility</h1>
 
-    testi testi
-
+    Select source data
     <form name="lahde">
         <span id="buttons">
           <input type="button" name="data1" value="data1" class="button" onclick="updateData()"/>
           <input type="button" name="data2" value="data2" class="button" onclick="updateData()"/>
           <input type="button" name="data3" value="data3" class="button" onclick="updateData()"/>
         </span>
-      </form>    
+      </form>
 
+      Filter tags
+      <form name="lahde">
+          <span id="buttons">
+            <input type="button" name="visibility" value="visibility" class="button" onclick="updateData()"/>
+            <input type="button" name="control" value="control" class="button" onclick="updateData()"/>
+          </span>
+        </form>
 
       <svg width="1800" height="900"></svg>
       <script src="graph.js"></script>
