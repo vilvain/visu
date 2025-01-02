@@ -196,8 +196,10 @@ var simulation = d3.forceSimulation()
         }
 }
 //data lahteen valinta
-var data = "data1.json"
+var data = "data1.json";
 var data, buttonsDiv=document.getElementById("buttons");
+
+renderoi(data);
 
 for (var i=1; i<=2; i++) {
   var button = document.lahde["data" + i];
