@@ -5,6 +5,7 @@
         "name": "Workstation",
         "image": "img/blue/sq_laptop_blue.svg",
         "description": "Client device, laptop or desktop",
+        "tags": "workstation,office,remote",
         "xaxis": 0
       },
       {
@@ -12,6 +13,7 @@
         "name": "Mobile",
         "image": "img/blue/sq_tablet_blue.svg",
         "description": "Client device, cell phone or tablet",
+        "tags": "mobile,remote",
         "xaxis": 0
       },
       {
@@ -19,6 +21,7 @@
         "name": "Office LAN",
         "image": "img/blue/sq_wifi_blue.svg",
         "description": "Connectivity via Wifi or cable to location's network",
+        "tags": "workstation,office,remote",
         "xaxis": 4
       },
       {
@@ -26,6 +29,7 @@
         "name": "Remote LAN",
         "image": "img/blue/sq_wifi_blue.svg",
         "description": "Connectivity via Wifi or cable to location's network",
+        "tags": "workstation,office,remote",
         "xaxis": 4
       },
       {
@@ -33,6 +37,7 @@
         "name": "Office WAN",
         "image": "img/blue/sq_router_blue.svg",
         "description": "Connectivity from location's network to datacenter",
+        "tags": "workstation,office,remote",
         "xaxis": 5
       },
       {
@@ -40,6 +45,7 @@
         "name": "Remote WAN",
         "image": "img/blue/sq_router_blue.svg",
         "description": "Connectivity from location's network to datacenter",
+        "tags": "workstation,office,remote",
         "xaxis": 5
       },
       {
@@ -47,6 +53,7 @@
         "name": "Mobile WAN",
         "image": "img/blue/sq_router_blue.svg",
         "description": "Connectivity from location's network to datacenter",
+        "tags": "workstation,office,remote",
         "xaxis": 5
       },
       {
@@ -54,6 +61,7 @@
         "name": "Cloud Edge",
         "image": "img/blue/sq_router_blue.svg",
         "description": "First datacenter that processes the traffic",
+        "tags": "workstation,office,remote",
         "xaxis": 7
       },
       {
@@ -61,6 +69,7 @@
         "name": "Onprem Edge",
         "image": "img/blue/sq_router_blue.svg",
         "description": "First datacenter that processes the traffic",
+        "tags": "workstation,office,remote",
         "xaxis": 7
       },
       {
@@ -68,6 +77,7 @@
         "name": "Internet",
         "image": "img/blue/sq_globe_blue.svg",
         "description": "General network of public datacenters",
+        "tags": "workstation,office,remote",
         "xaxis": 9
       },
       {
@@ -75,6 +85,7 @@
         "name": "Onprem WAN",
         "image": "img/blue/sq_globe_blue.svg",
         "description": "Connectivity between private datacenters",
+        "tags": "workstation,office,remote",
         "xaxis": 9
       },  
       {
@@ -82,6 +93,7 @@
         "name": "Cloud IaaS",
         "image": "img/blue/sq_server_blue.svg",
         "description": "Datacenter that hosts the application, platform hosted by someone else",
+        "tags": "workstation,office,remote",
         "xaxis": 11
       },
       {
@@ -89,6 +101,7 @@
         "name": "Cloud SaaS",
         "image": "img/blue/sq_cloud_blue.svg",
         "description": "Datacenter that hosts the application, platform and application hosted by someone else",
+        "tags": "workstation,office,remote",
         "xaxis": 11
       },
       {
@@ -96,6 +109,7 @@
         "name": "Onprem IaaS",
         "image": "img/blue/sq_server_blue.svg",
         "description": "Datacenter that hosts the application, platform hosted by someone else",
+        "tags": "workstation,office,remote",
         "xaxis": 11
       },
       {
@@ -103,6 +117,7 @@
         "name": "Onprem SaaS",
         "image": "img/blue/sq_cloud_blue.svg",
         "description": "Datacenter that hosts the application, platform and application hosted by someone else",
+        "tags": "workstation,office,remote",
         "xaxis": 11
       },
       {
@@ -110,6 +125,7 @@
         "name": "Microsoft Azure",
         "image": "img/blue/sq_cloud_blue.svg",
         "description": "Microsoft's IaaS hosting",
+        "tags": "workstation,office,remote",
         "xaxis": 13
       },
       {
@@ -117,6 +133,7 @@
         "name": "Amazon Web Services",
         "image": "img/blue/sq_cloud_blue.svg",
         "description": "Amazon's IaaS hosting ",
+        "tags": "workstation,office,remote",
         "xaxis": 13
       },
       {
@@ -124,6 +141,7 @@
         "name": "Google Cloud Platform",
         "image": "img/blue/sq_cloud_blue.svg",
         "description": "Google's IaaS hosting",
+        "tags": "workstation,office,remote",
         "xaxis": 13
       },
       {
@@ -131,6 +149,7 @@
         "name": "Oracle Cloud Infrastructure",
         "image": "img/blue/sq_cloud_blue.svg",
         "description": "Oracle's IaaS hosting",
+        "tags": "workstation,office,remote",
         "xaxis": 13
       },
       {
@@ -145,6 +164,7 @@
         "name": "File fingerprint check",
         "image": "img/green/sq_fingerprint_green.svg",
         "description": "Calculating hashes (fingerprints) of files to be run and comparing them against known bad ones",
+        "tags": "workstation,office,remote",
         "xaxis": 0
       },
       {
@@ -152,6 +172,7 @@
         "name": "File content check",
         "image": "img/green/sq_fingerprint_green.svg",
         "description": "Regex checking inside of files for known bad byte sequences",
+        "tags": "workstation,office,remote",
         "xaxis": 0
       },
       {
@@ -159,6 +180,7 @@
         "name": "Process allow list",
         "image": "img/green/sq_fingerprint_green.svg",
         "description": "Only allowing allowlisted processes to be started by user",
+        "tags": "workstation,office,remote",
         "xaxis": 0
       },
       {
@@ -166,6 +188,7 @@
         "name": "Process logging",
         "image": "img/blue/sq_inspect_blue.svg",
         "description": "Logging process meta data like process name, PID, user account, starting process, start parameters, connections",
+        "tags": "workstation,office,remote",
         "xaxis": 0
       },
       {
@@ -173,6 +196,7 @@
         "name": "Network allow list",
         "image": "img/blue/sq_firewall_blue.svg",
         "description": "Only allowing allowlisted connections in and out",
+        "tags": "workstation,office,remote",
         "xaxis": 0
       },
       {
@@ -180,6 +204,7 @@
         "name": "Secure connectiong to private resources",
         "image": "img/blue/sq_firewall_blue.svg",
         "description": "Encrypting and tunneling connections to private resources",
+        "tags": "workstation,office,remote",
         "xaxis": 0
       },
       {
@@ -187,6 +212,7 @@
         "name": "Device authentication",
         "image": "img/green/sq_user_green.svg",
         "description": "802.1x authentication to connect to the network",
+        "tags": "workstation,office,remote",
         "xaxis": 1
       },
       {
@@ -194,6 +220,7 @@
         "name": "Network encryption",
         "image": "img/red/sq_wlc_red.svg",
         "description": "Network level encryption of the traffic to the Edge",
+        "tags": "workstation,office,remote",
         "xaxis": 1
       },
       {
@@ -201,6 +228,7 @@
         "name": "Network encryption",
         "image": "img/red/sq_wlc_red.svg",
         "description": "Network level encryption of the traffic to the Edge",
+        "tags": "workstation,office,remote",
         "xaxis": 2
       },
       {
@@ -208,6 +236,7 @@
         "name": "Network encryption",
         "image": "img/red/sq_wlc_red.svg",
         "description": "Network level encryption of the traffic to the Edge",
+        "tags": "workstation,office,remote",
         "xaxis": 2
       },
       {
@@ -215,6 +244,7 @@
         "name": "Flow logging",
         "image": "img/blue/sq_xml_blue.svg",
         "description": "Logging of connections' meta data",
+        "tags": "workstation,office,remote",
         "xaxis": 0
       },
       {
@@ -222,6 +252,7 @@
         "name": "Flow logging",
         "image": "img/red/sq_xml_red.svg",
         "description": "Logging of connections' meta data",
+        "tags": "workstation,office,remote",
         "xaxis": 1
       },
       {
@@ -229,6 +260,7 @@
         "name": "Flow logging",
         "image": "img/red/sq_xml_red.svg",
         "description": "Logging of connections' meta data",
+        "tags": "workstation,office,remote",
         "xaxis": 2
       }
     ],
