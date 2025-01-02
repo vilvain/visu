@@ -16,7 +16,7 @@
       },
       {
         "id": 3,
-        "name": "LAN",
+        "name": "Office LAN",
         "image": "img/blue/sq_wifi_blue.svg",
         "description": "Connectivity via Wifi or cable to location's network",
         "category": 1
@@ -153,6 +153,13 @@
         "image": "img/red/sq_wlc_red.svg",
         "description": "Network level encryption of the traffic to the Edge",
         "category": 2
+      },
+      {
+        "id": 23,
+        "name": "Remote LAN",
+        "image": "img/blue/sq_wifi_blue.svg",
+        "description": "Connectivity via Wifi or cable to location's network",
+        "category": 1
       }
     ],
     "links": [
@@ -259,6 +266,16 @@
       },
       {
         "source_id": 4,
+        "target_id": 22,
+        "title": "L2L tunnel"
+      },
+      {
+        "source_id": 23,
+        "target_id": 22,
+        "title": "L2L tunnel"
+      },
+      {
+        "source_id": 23,
         "target_id": 22,
         "title": "L2L tunnel"
       }
