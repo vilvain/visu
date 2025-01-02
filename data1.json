@@ -403,6 +403,21 @@
         "source_id": 6,
         "target_id": 31,
         "title": "WANs"
+      },
+      {
+        "source_id": 30,
+        "target_id": 31,
+        "title": "Edge to WAN"
+      },
+      {
+        "source_id": 31,
+        "target_id": 32,
+        "title": "WAN to IaaS"
+      },
+      {
+        "source_id": 31,
+        "target_id": 33,
+        "title": "WAN to SaaS"
       }
     ]
   }
