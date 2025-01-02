@@ -192,7 +192,7 @@
       {
         "id": 28,
         "name": "Visibility",
-        "image": "img/blue/sqsq_inspect_blue.svg",
+        "image": "img/blue/sq_inspect_blue.svg",
         "description": "Visibility to transactions, usually as logs",
         "category": 0
       },
@@ -267,32 +267,37 @@
         "title": "VPC to VM"
        },
        {
-        "source_id": 1,
+        "source_id": 29,
         "target_id": 14,
         "title": "AV/EDR"
       },
       {
-        "source_id": 1,
+        "source_id": 29,
         "target_id": 15,
         "title": "AV/EDR"
       },
       {
-        "source_id": 1,
+        "source_id": 29,
         "target_id": 16,
         "title": "EDR/Applocker"
       },
       {
-        "source_id": 1,
+        "source_id": 28,
         "target_id": 17,
         "title": "EDR/Sysmon"
       },
       {
-        "source_id": 1,
+        "source_id": 29,
         "target_id": 18,
         "title": "Firewall/SWG"
       },
       {
-        "source_id": 1,
+        "source_id": 28,
+        "target_id": 19,
+        "title": "VPN/ZTNA"
+      },
+      {
+        "source_id": 29,
         "target_id": 19,
         "title": "VPN/ZTNA"
       },
@@ -324,10 +329,10 @@
       {
         "source_id": 1,
         "target_id": 23,
-        "title": "L2L tunnel"
+        "title": "Endpoint to LAN"
       },
       {
-        "source_id": 1,
+        "source_id": 28,
         "target_id": 24,
         "title": "Logging"
       },
