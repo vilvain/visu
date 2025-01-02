@@ -64,7 +64,7 @@ var simulation = d3.forceSimulation()
             .on("end", dragended));
 
         node.on("mouseover", function(event, d){              
-                t_text = "<strong>" + d.description + "</strong>"
+                t_text = "<strong>" + d.id + " - " + d.description + "</strong>"
                 tooltip.html(t_text)
                 return tooltip.style("visibility", "visible");
                 })

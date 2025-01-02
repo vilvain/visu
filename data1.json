@@ -4,14 +4,14 @@
         "id": 1,
         "name": "Workstation",
         "image": "img/blue/sq_laptop_blue.svg",
-        "description": "Laptop desc",
+        "description": "Client endpoint, laptop or desktop",
         "category": 0
       },
       {
         "id": 2,
         "name": "Mobile",
         "image": "img/blue/sq_tablet_blue.svg",
-        "description": "Mobile desc",
+        "description": "Client endpoint, cell phone or tablet",
         "category": 0
       },
       {
@@ -155,6 +155,13 @@
         "category": 2
       },
       {
+        "id": 27,
+        "name": "Network encryption",
+        "image": "img/red/sq_wlc_red.svg",
+        "description": "Network level encryption of the traffic to the Edge",
+        "category": 2
+      },
+      {
         "id": 23,
         "name": "Remote LAN",
         "image": "img/blue/sq_wifi_blue.svg",
@@ -164,21 +171,21 @@
       {
         "id": 24,
         "name": "Flow logging",
-        "image": "img/sq_wifi_blue.svg",
+        "image": "img/blue/sq_xml_blue.svg",
         "description": "Logging of connections' meta data",
         "category": 0
       },
       {
         "id": 25,
         "name": "Flow logging",
-        "image": "img/red/sq_wifi_red.svg",
+        "image": "img/red/sq_xml_red.svg",
         "description": "Logging of connections' meta data",
         "category": 1
       },
       {
         "id": 26,
         "name": "Flow logging",
-        "image": "img/red/sq_wifi_red.svg",
+        "image": "img/red/sq_xml_red.svg",
         "description": "Logging of connections' meta data",
         "category": 2
       }
@@ -296,7 +303,7 @@
         "title": "L2L tunnel"
       },
       {
-        "source_id": 23,
+        "source_id": 4,
         "target_id": 22,
         "title": "L2L tunnel"
       },
