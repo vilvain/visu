@@ -63,7 +63,7 @@
   box-shadow: none;
 }
 
-.h1 {
-    font-family: 12px sans-serif;
+.body {
+    font: 12px sans-serif;
     color: #00BFFF;
 }
