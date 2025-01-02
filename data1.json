@@ -246,6 +246,21 @@
         "source_id": 1,
         "target_id": 19,
         "title": "VPN/ZTNA"
+      },
+      {
+        "source_id": 3,
+        "target_id": 20,
+        "title": "Authentication"
+      },
+      {
+        "source_id": 3,
+        "target_id": 21,
+        "title": "L2L tunnel"
+      },
+      {
+        "source_id": 4,
+        "target_id": 22,
+        "title": "L2L tunnel"
       }
     ]
   }
