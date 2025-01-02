@@ -31,8 +31,6 @@ var simulation = d3.forceSimulation()
         });           
         
     var link = svg.selectAll("line")
-                //sisallon suodatus
-                .filter(":nth-child(odd)")
                 .data(graph.links)
                 .enter().append("g");
 
@@ -207,9 +205,9 @@ for (var i=1; i<=3; i++) {
   var button = document.data ["data" + i];
   button.onclick = function() {
     data = this.value+".json";
-    fetch(data)
-        .then((response) => response.json())
-        .then((json) =>  alert(json.nodes[1].tags));
+    //fetch(data)
+    //    .then((response) => response.json())
+    //    .then((json) =>  alert(json.nodes[1].tags));
 //    alert(data);
 //    buttonsDiv.style.display = 'none';
     renderoi(data);
