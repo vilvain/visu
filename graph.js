@@ -201,7 +201,7 @@ var data, buttonsDiv=document.getElementById("buttons");
 
 renderoi(data);
 
-for (var i=1; i<=2; i++) {
+for (var i=1; i<=3; i++) {
   var button = document.lahde["data" + i];
   button.onclick = function() {
     data = this.value+".json";
