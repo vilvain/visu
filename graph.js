@@ -31,6 +31,8 @@ var simulation = d3.forceSimulation()
         });           
         
     var link = svg.selectAll("line")
+                //sisallon suodatus
+                .filter(":nth-child(odd)")
                 .data(graph.links)
                 .enter().append("g");
 
