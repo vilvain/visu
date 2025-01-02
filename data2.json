@@ -19,28 +19,28 @@
         "name": "LAN",
         "image": "img/blue/sq_wifi_blue.svg",
         "description": "Network desc",
-        "xaxis": 1
+        "xaxis": 2
       },
       {
         "id": 4,
         "name": "WAN",
         "image": "img/blue/sq_router_blue.svg",
         "description": "Network desc",
-        "xaxis": 2
+        "xaxis": 4
       },
       {
         "id": 5,
         "name": "Edge",
         "image": "img/blue/sq_router_blue.svg",
         "description": "Network desc",
-        "xaxis": 3
+        "xaxis": 6
       },
       {
         "id": 6,
         "name": "Internet",
         "image": "img/blue/sq_globe_blue.svg",
         "description": "Network desc",
-        "xaxis": 4
+        "xaxis": 8
       }
     ],
     "links": [
