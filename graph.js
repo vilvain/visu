@@ -201,6 +201,7 @@ var simulation = d3.forceSimulation()
 //data lahteen valinta
 var data = "data1.json";
 var data, buttonsDiv=document.getElementById("buttons");
+var tagit = "workstation";
 
 renderoi(data);
 
