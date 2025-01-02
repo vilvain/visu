@@ -26,7 +26,7 @@ var simulation = d3.forceSimulation()
 //    alert("data=" + data);
     d3.json(data).then(function(graph) {
         graph.links.forEach(function(d){
-            alert(d.tags);
+            //alert(d.tags);
         if(d.tags.includes(tagit))
         {
             d.source = d.source_id;    
