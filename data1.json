@@ -94,14 +94,14 @@
       {
         "id": 14,
         "name": "File fingerprint check",
-        "image": "img/blue/sq_fingerprint_blue.svg",
+        "image": "img/blue/sq_fingerprint_green.svg",
         "description": "Calculating hashes (fingerprints) of files to be run and comparing them against known bad ones",
         "category": 0
       },
       {
         "id": 15,
         "name": "File content check",
-        "image": "img/blue/sq_fingerprint_blue.svg",
+        "image": "img/blue/sq_fingerprint_green.svg",
         "description": "Regex checking inside of files for known bad byte sequences",
         "category": 0
       },
