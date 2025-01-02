@@ -275,157 +275,188 @@
       {
         "source_id": 2,
         "target_id": 29,
-        "title": "Endpoint to WAN"
+        "title": "Endpoint to WAN",
+        "tags": "office,remote"
       },
       {
         "source_id": 1,
         "target_id": 23,
-        "title": "Endpoint to LAN"
+        "title": "Endpoint to LAN",
+        "tags": "office,remote"
       },
       {
         "source_id": 3,
         "target_id": 4,
-        "title": "LAN to WAN"
+        "title": "LAN to WAN",
+        "tags": "office,remote"
       },
       {
         "source_id": 23,
         "target_id": 28,
-        "title": "LAN to WAN"
+        "title": "LAN to WAN",
+        "tags": "office,remote"
       },
       {
         "source_id": 4,
         "target_id": 30,
-        "title": "WAN to Edge"
+        "title": "WAN to Edge",
+        "tags": "office,remote"
       },
       {
         "source_id": 28,
         "target_id": 5,
-        "title": "WAN to Edge"
+        "title": "WAN to Edge",
+        "tags": "office,remote"
       },
       {
         "source_id": 29,
         "target_id": 5,
-        "title": "WAN to Edge"
+        "title": "WAN to Edge",
+        "tags": "office,remote"
       },
       {
         "source_id": 5,
         "target_id": 6,
-        "title": "Edge to Internet"
+        "title": "Edge to Internet",
+        "tags": "office,remote"
         },
        {
         "source_id": 6,
         "target_id": 7,
-        "title": "Internet to IaaS"
+        "title": "Internet to IaaS",
+        "tags": "office,remote"
       },
       {
         "source_id": 6,
         "target_id": 8,
-        "title": "Internet to SaaS"
+        "title": "Internet to SaaS",
+        "tags": "office,remote"
       },
      {
         "source_id": 7,
         "target_id": 9,
-        "title": "Internet to IaaS"
+        "title": "Internet to IaaS",
+        "tags": "office,remote"
       },
       {
         "source_id": 7,
         "target_id": 10,
-        "title": "Internet to IaaS"
+        "title": "Internet to IaaS",
+        "tags": "office,remote"
       },
       {
         "source_id": 7,
         "target_id": 11,
-        "title": "Internet to IaaS"
+        "title": "Internet to IaaS",
+        "tags": "office,remote"
       },
       {
         "source_id": 7,
         "target_id": 12,
-        "title": "Internet to IaaS"
+        "title": "Internet to IaaS",
+        "tags": "office,remote"
       },
       {
         "source_id": 9,
         "target_id": 13,
-        "title": "VPC to VM"
+        "title": "VPC to VM",
+        "tags": "office,remote"
        },
        {
         "source_id": 1,
         "target_id": 14,
-        "title": "EDR/AV"
+        "title": "EDR/AV",
+        "tags": "office,remote"
       },
       {
         "source_id": 1,
         "target_id": 15,
-        "title": "EDR/AV"
+        "title": "EDR/AV",
+        "tags": "office,remote"
       },
       {
         "source_id": 1,
         "target_id": 16,
-        "title": "EDR/Applocker"
+        "title": "EDR/Applocker",
+        "tags": "office,remote"
       },
       {
         "source_id": 1,
         "target_id": 17,
-        "title": "EDR/Sysmon"
+        "title": "EDR/Sysmon",
+        "tags": "office,remote"
       },
       {
         "source_id": 1,
         "target_id": 18,
-        "title": "Firewall/SWG"
+        "title": "Firewall/SWG",
+        "tags": "office,remote"
       },
       {
         "source_id": 1,
         "target_id": 19,
-        "title": "VPN/ZTNA"
+        "title": "VPN/ZTNA",
+        "tags": "office,remote"
       },
       {
         "source_id": 3,
         "target_id": 20,
-        "title": "Authentication"
+        "title": "Authentication",
+        "tags": "office,remote"
       },
       {
         "source_id": 3,
         "target_id": 21,
-        "title": "L2L tunnel"
+        "title": "L2L tunnel",
+        "tags": "office,remote"
       },
       {
         "source_id": 4,
         "target_id": 22,
-        "title": "L2L tunnel"
+        "title": "L2L tunnel",
+        "tags": "office,remote"
       },
       {
         "source_id": 23,
         "target_id": 27,
-        "title": "L2L tunnel"
+        "title": "L2L tunnel",
+        "tags": "office,remote"
       },
       {
         "source_id": 4,
         "target_id": 22,
-        "title": "L2L tunnel"
+        "title": "L2L tunnel",
+        "tags": "office,remote"
       },
       {
         "source_id": 1,
         "target_id": 24,
-        "title": "Logging"
+        "title": "Logging",
+        "tags": "office,remote"
       },
       {
         "source_id": 3,
         "target_id": 25,
-        "title": "Logging"
+        "title": "Logging",
+        "tags": "office,remote"
       },
       {
         "source_id": 4,
         "target_id": 26,
-        "title": "Logging"
+        "title": "Logging",
+        "tags": "office,remote"
       },
       {
         "source_id": 3,
         "target_id": 23,
-        "title": "LANs"
+        "title": "LANs",
+        "tags": "office,remote"
       },
       {
         "source_id": 4,
         "target_id": 28,
-        "title": "WANs"
+        "title": "WANs",
+        "tags": "office,remote"
       },
       {
         "source_id": 30,
@@ -435,22 +466,26 @@
       {
         "source_id": 6,
         "target_id": 31,
-        "title": "WANs"
+        "title": "WANs",
+        "tags": "office,remote"
       },
       {
         "source_id": 30,
         "target_id": 31,
-        "title": "Edge to WAN"
+        "title": "Edge to WAN",
+        "tags": "office,remote"
       },
       {
         "source_id": 31,
         "target_id": 32,
-        "title": "WAN to IaaS"
+        "title": "WAN to IaaS",
+        "tags": "office,remote"
       },
       {
         "source_id": 31,
         "target_id": 33,
-        "title": "WAN to SaaS"
+        "title": "WAN to SaaS",
+        "tags": "office,remote"
       }
     ]
   }
