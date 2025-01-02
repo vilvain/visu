@@ -94,7 +94,7 @@
       {
         "id": 14,
         "name": "File fingerprint check",
-        "image": "img/blue/sq_fingerprint_green.svg",
+        "image": "img/green/sq_fingerprint_green.svg",
         "description": "Calculating hashes (fingerprints) of files to be run and comparing them against known bad ones",
         "category": 0
       },
@@ -108,7 +108,7 @@
       {
         "id": 16,
         "name": "Process allow list",
-        "image": "img/green/sq_fingerprint_blue.svg",
+        "image": "img/green/sq_fingerprint_green.svg",
         "description": "Only allowing allowlisted processes to be started by user",
         "category": 0
       },
