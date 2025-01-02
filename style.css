@@ -62,3 +62,8 @@
   background-color: #07c;
   box-shadow: none;
 }
+
+.h1 {
+    font: 12px sans-serif;
+    color: #00BFFF;
+}
