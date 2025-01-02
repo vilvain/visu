@@ -188,6 +188,20 @@
         "image": "img/red/sq_xml_red.svg",
         "description": "Logging of connections' meta data",
         "category": 2
+      },
+      {
+        "id": 28,
+        "name": "Visibility",
+        "image": "img/blue/sqsq_inspect_blue.svg",
+        "description": "Visibility to transactions, usually as logs",
+        "category": 0
+      },
+      {
+        "id": 29,
+        "name": "Control",
+        "image": "img/blue/sq_cog_blue.svg",
+        "description": "Control of transactions, usually as hardened configurations",
+        "category": 0
       }
     ],
     "links": [
@@ -331,6 +345,16 @@
         "source_id": 23,
         "target_id": 4,
         "title": "LAN to WAN"
+      },
+      {
+        "source_id": 1,
+        "target_id": 28,
+        "title": "Visibility"
+      },
+      {
+        "source_id": 1,
+        "target_id": 29,
+        "title": "Control"
       }
     ]
   }
