@@ -51,7 +51,14 @@
       },
       {
         "id": 5,
-        "name": "Edge",
+        "name": "Cloud Edge",
+        "image": "img/blue/sq_router_blue.svg",
+        "description": "First datacenter that processes the traffic",
+        "xaxis": 7
+      },
+      {
+        "id": 30,
+        "name": "Onprem Edge",
         "image": "img/blue/sq_router_blue.svg",
         "description": "First datacenter that processes the traffic",
         "xaxis": 7
@@ -60,21 +67,42 @@
         "id": 6,
         "name": "Internet",
         "image": "img/blue/sq_globe_blue.svg",
-        "description": "General network of datacenters",
+        "description": "General network of public datacenters",
+        "xaxis": 9
+      },
+      {
+        "id": 31,
+        "name": "Onprem WAN",
+        "image": "img/blue/sq_globe_blue.svg",
+        "description": "Connectivity between private datacenters",
         "xaxis": 9
       },  
       {
         "id": 7,
-        "name": "IaaS",
+        "name": "Cloud IaaS",
         "image": "img/blue/sq_server_blue.svg",
         "description": "Datacenter that hosts the application, platform hosted by someone else",
         "xaxis": 11
       },
       {
         "id": 8,
-        "name": "SaaS",
+        "name": "Cloud SaaS",
         "image": "img/blue/sq_cloud_blue.svg",
-        "description": "Datacenter that hosts the application, platform and applications hosted by someone else",
+        "description": "Datacenter that hosts the application, platform and application hosted by someone else",
+        "xaxis": 11
+      },
+      {
+        "id": 32,
+        "name": "Onprem IaaS",
+        "image": "img/blue/sq_server_blue.svg",
+        "description": "Datacenter that hosts the application, platform hosted by someone else",
+        "xaxis": 11
+      },
+      {
+        "id": 33,
+        "name": "Onprem SaaS",
+        "image": "img/blue/sq_cloud_blue.svg",
+        "description": "Datacenter that hosts the application, platform and application hosted by someone else",
         "xaxis": 11
       },
       {
@@ -238,12 +266,12 @@
       },
       {
         "source_id": 28,
-        "target_id": 5,
+        "target_id": 30,
         "title": "WAN to Edge"
       },
       {
         "source_id": 29,
-        "target_id": 5,
+        "target_id": 30,
         "title": "WAN to Edge"
       },
       {
