@@ -205,8 +205,9 @@ for (var i=1; i<=3; i++) {
   var button = document.data ["data" + i];
   button.onclick = function() {
     data = this.value+".json";
-    const lista = fetch(data);
-    alert(lista);
+    fetch(data)
+        .then((response) => response.json())
+        .then((json) =>  alert(json);
 //    alert(data);
 //    buttonsDiv.style.display = 'none';
     renderoi(data);
