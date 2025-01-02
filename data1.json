@@ -261,17 +261,17 @@
       },
       {
         "source_id": 4,
-        "target_id": 5,
+        "target_id": 30,
         "title": "WAN to Edge"
       },
       {
         "source_id": 28,
-        "target_id": 30,
+        "target_id": 5,
         "title": "WAN to Edge"
       },
       {
         "source_id": 29,
-        "target_id": 30,
+        "target_id": 5,
         "title": "WAN to Edge"
       },
       {
