@@ -11,7 +11,7 @@
     <h1>Zero Trust Architecture - Topology, Controls and Visibility</h1>
 
     Select source data
-    <form name="lahde">
+    <form name="data">
         <span id="buttons">
           <input type="button" name="data1" value="data1" class="button" onclick="updateData()"/>
           <input type="button" name="data2" value="data2" class="button" onclick="updateData()"/>
@@ -20,10 +20,16 @@
       </form>
 
       Filter tags
-      <form name="lahde">
+      <form name="tags">
           <span id="buttons">
             <input type="button" name="visibility" value="visibility" class="button" onclick="updateData()"/>
             <input type="button" name="control" value="control" class="button" onclick="updateData()"/>
+            <input type="button" name="network" value="visibility" class="button" onclick="updateData()"/>
+            <input type="button" name="workstation" value="control" class="button" onclick="updateData()"/>
+            <input type="button" name="mobile" value="control" class="button" onclick="updateData()"/>
+            <input type="button" name="datacenter" value="visibility" class="button" onclick="updateData()"/>
+            <input type="button" name="onprem" value="control" class="button" onclick="updateData()"/>
+            <input type="button" name="cloud" value="control" class="button" onclick="updateData()"/>
           </span>
         </form>
 
