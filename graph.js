@@ -11,7 +11,7 @@ var svg = d3.select("svg"),
             height = +svg.attr("height");
 
 //kategorioiden x koordinaatioot, eka 0, toka 1 jne            
-var xCenter = [100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800];            
+var xCenter = [0, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1100, 1200, 1300, 1400, 1500, 1600, 1700, 1800];            
 
 var simulation = d3.forceSimulation()
     .force("link", d3.forceLink().id(function(d) { console.log(d); return d.id; }).distance(100))

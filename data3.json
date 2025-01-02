@@ -5,91 +5,91 @@
         "name": "Workstation",
         "image": "img/blue/sq_laptop_blue.svg",
         "description": "Client endpoint, laptop or desktop",
-        "xaxis": 0
+        "xaxis": 1
       },
       {
         "id": 2,
         "name": "Mobile",
         "image": "img/blue/sq_tablet_blue.svg",
         "description": "Client endpoint, cell phone or tablet",
-        "xaxis": 0
+        "xaxis": 1
       },
       {
         "id": 3,
         "name": "Office LAN",
         "image": "img/blue/sq_wifi_blue.svg",
         "description": "Connectivity via Wifi or cable to location's network",
-        "xaxis": 1
+        "xaxis": 3
       },
       {
         "id": 4,
         "name": "WAN",
         "image": "img/blue/sq_router_blue.svg",
         "description": "Connectivity from location's network to datacenter",
-        "xaxis": 2
+        "xaxis": 4
       },
       {
         "id": 5,
         "name": "Edge",
         "image": "img/blue/sq_router_blue.svg",
         "description": "First datacenter that processes the traffic",
-        "xaxis": 3
+        "xaxis": 5
       },
       {
         "id": 6,
         "name": "Internet",
         "image": "img/blue/sq_globe_blue.svg",
         "description": "General network of datacenters",
-        "xaxis": 4
+        "xaxis": 6
       },  
       {
         "id": 7,
         "name": "IaaS",
         "image": "img/blue/sq_server_blue.svg",
         "description": "Datacenter that hosts the application, platform hosted by someone else",
-        "xaxis": 5
+        "xaxis": 8
       },
       {
         "id": 8,
         "name": "SaaS",
         "image": "img/blue/sq_cloud_blue.svg",
         "description": "Datacenter that hosts the application, platform and applications hosted by someone else",
-        "xaxis": 5
+        "xaxis": 8
       },
       {
         "id": 9,
         "name": "Microsoft Azure",
         "image": "img/blue/sq_cloud_blue.svg",
         "description": "Microsoft's IaaS hosting",
-        "xaxis": 6
+        "xaxis": 10
       },
       {
         "id": 10,
         "name": "Amazon Web Services",
         "image": "img/blue/sq_cloud_blue.svg",
         "description": "Amazon's IaaS hosting ",
-        "xaxis": 6
+        "xaxis": 10
       },
       {
         "id": 11,
         "name": "Google Cloud Platform",
         "image": "img/blue/sq_cloud_blue.svg",
         "description": "Google's IaaS hosting",
-        "xaxis": 6
+        "xaxis": 10
       },
       {
         "id": 12,
         "name": "Oracle Cloud Infrastructure",
         "image": "img/blue/sq_cloud_blue.svg",
         "description": "Oracle's IaaS hosting",
-        "xaxis": 6
+        "xaxis": 10
       },
       {
         "id": 13,
         "name": "Visu test server",
         "image": "img/blue/sq_server_blue.svg",
         "description": "hosted in MS Az",
-        "xaxis": 7
+        "xaxis": 12
       },
       {
         "id": 14,
