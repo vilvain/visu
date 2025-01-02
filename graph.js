@@ -202,9 +202,11 @@ var data, buttonsDiv=document.getElementById("buttons");
 renderoi(data);
 
 for (var i=1; i<=3; i++) {
-  var button = document.lahde["data" + i];
+  var button = document.data ["data" + i];
   button.onclick = function() {
     data = this.value+".json";
+    const lista = require(data);
+    alert(lista);
 //    alert(data);
 //    buttonsDiv.style.display = 'none';
     renderoi(data);
