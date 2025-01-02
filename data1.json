@@ -299,7 +299,7 @@
       },
       {
         "source_id": 23,
-        "target_id": 21,
+        "target_id": 27,
         "title": "L2L tunnel"
       },
       {
@@ -310,7 +310,7 @@
       {
         "source_id": 1,
         "target_id": 23,
-        "title": "L2L tunnel"
+        "title": "Endpoint to LAN"
       },
       {
         "source_id": 1,
