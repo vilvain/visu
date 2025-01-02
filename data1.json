@@ -237,6 +237,16 @@
         "title": "WAN to Edge"
       },
       {
+        "source_id": 28,
+        "target_id": 5,
+        "title": "WAN to Edge"
+      },
+      {
+        "source_id": 29,
+        "target_id": 5,
+        "title": "WAN to Edge"
+      },
+      {
         "source_id": 5,
         "target_id": 6,
         "title": "Edge to Internet"
