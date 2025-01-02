@@ -31,7 +31,7 @@ var simulation = d3.forceSimulation()
         {
             d.source = d.source_id;    
             d.target = d.target_id;
-        }
+        };
         });           
         
     var link = svg.selectAll("line")
