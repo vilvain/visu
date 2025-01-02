@@ -194,14 +194,14 @@
         "name": "Visibility",
         "image": "img/blue/sq_inspect_blue.svg",
         "description": "Visibility to transactions, usually as logs",
-        "xaxis": 0
+        "xaxis": 1
       },
       {
         "id": 29,
         "name": "Control",
         "image": "img/blue/sq_cog_blue.svg",
         "description": "Control of transactions, usually as hardened configurations",
-        "xaxis": 0
+        "xaxis": 1
       }
     ],
     "links": [
