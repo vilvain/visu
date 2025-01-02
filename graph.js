@@ -1,4 +1,4 @@
-function renderoi(data){
+function renderoi(data,tags){
 
 //poista vanha svg kuva
 var svg = d3.select("svg");
@@ -26,8 +26,11 @@ var simulation = d3.forceSimulation()
 //    alert("data=" + data);
     d3.json(data).then(function(graph) {
         graph.links.forEach(function(d){
-        d.source = d.source_id;    
-        d.target = d.target_id;
+        if(d.tags.includes(tags))
+        {
+            d.source = d.source_id;    
+            d.target = d.target_id;
+        }
         });           
         
     var link = svg.selectAll("line")
@@ -210,6 +213,6 @@ for (var i=1; i<=3; i++) {
     //    .then((json) =>  alert(json.nodes[1].tags));
 //    alert(data);
 //    buttonsDiv.style.display = 'none';
-    renderoi(data);
+    renderoi(data,tags);
   }
 }

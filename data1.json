@@ -269,7 +269,8 @@
       {
         "source_id": 1,
         "target_id": 3,
-        "title": "Endpoint to LAN"
+        "title": "Endpoint to LAN",
+        "tags": "workstation,office,remote"
       },
       {
         "source_id": 2,
