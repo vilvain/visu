@@ -153,7 +153,7 @@
         "image": "img/red/sq_firewall_red.svg",
         "description": "Network level encryption of the traffic to the Edge",
         "category": 2
-      },
+      }
     ],
     "links": [
   
