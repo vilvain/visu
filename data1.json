@@ -46,14 +46,14 @@
         "id": 7,
         "name": "IaaS",
         "image": "img/blue/sq_server_blue.svg",
-        "description": "Destination datacenter that processes the traffic, platform hosted by someone else",
+        "description": "Datacenter that hosts the application, platform hosted by someone else",
         "category": 5
       },
       {
         "id": 8,
         "name": "SaaS",
         "image": "img/blue/sq_cloud_blue.svg",
-        "description": "Destination datacenter that processes the traffic, platform and applications hosted by someone else",
+        "description": "Datacenter that hosts the application, platform and applications hosted by someone else",
         "category": 5
       },
       {
@@ -132,7 +132,28 @@
         "image": "img/blue/sq_firewall_blue.svg",
         "description": "Encrypting and tunneling connections to private resources",
         "category": 0
-      }
+      },
+      {
+        "id": 20,
+        "name": "Device authentication",
+        "image": "img/blue/sq_firewall_blue.svg",
+        "description": "802.1x authentication to connect to the network",
+        "category": 1
+      },
+      {
+        "id": 21,
+        "name": "Network encryption",
+        "image": "img/red/sq_firewall_red.svg",
+        "description": "Network level encryption of the traffic to the Edge",
+        "category": 1
+      },
+      {
+        "id": 22,
+        "name": "Network encryption",
+        "image": "img/red/sq_firewall_red.svg",
+        "description": "Network level encryption of the traffic to the Edge",
+        "category": 2
+      },
     ],
     "links": [
   
