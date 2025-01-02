@@ -18,77 +18,77 @@
         "id": 3,
         "name": "LAN",
         "image": "img/blue/sq_wifi_blue.svg",
-        "description": "Network desc",
+        "description": "Connectivity via Wifi or cable to location's network",
         "category": 1
       },
       {
         "id": 4,
         "name": "WAN",
         "image": "img/blue/sq_router_blue.svg",
-        "description": "Network desc",
+        "description": "Connectivity from location's network to datacenter",
         "category": 2
       },
       {
         "id": 5,
         "name": "Edge",
         "image": "img/blue/sq_router_blue.svg",
-        "description": "Network desc",
+        "description": "First datacenter that processes the traffic",
         "category": 3
       },
       {
         "id": 6,
         "name": "Internet",
         "image": "img/blue/sq_globe_blue.svg",
-        "description": "Network desc",
+        "description": "General network of datacenters",
         "category": 4
       },  
       {
         "id": 7,
         "name": "IaaS",
         "image": "img/blue/sq_server_blue.svg",
-        "description": "IaaS desc",
+        "description": "Destination datacenter that processes the traffic, platform hosted by someone else",
         "category": 5
       },
       {
         "id": 8,
         "name": "SaaS",
         "image": "img/blue/sq_cloud_blue.svg",
-        "description": "SaaS desc",
+        "description": "Destination datacenter that processes the traffic, platform and applications hosted by someone else",
         "category": 5
       },
       {
         "id": 9,
         "name": "Microsoft Azure",
         "image": "img/blue/sq_cloud_blue.svg",
-        "description": "desc",
+        "description": "Microsoft's IaaS hosting",
         "category": 6
       },
       {
         "id": 10,
         "name": "Amazon Web Services",
         "image": "img/blue/sq_cloud_blue.svg",
-        "description": "desc",
+        "description": "Amazon's IaaS hosting ",
         "category": 6
       },
       {
         "id": 11,
         "name": "Google Cloud Platform",
         "image": "img/blue/sq_cloud_blue.svg",
-        "description": "desc",
+        "description": "Google's IaaS hosting",
         "category": 6
       },
       {
         "id": 12,
         "name": "Oracle Cloud Infrastructure",
         "image": "img/blue/sq_cloud_blue.svg",
-        "description": "desc",
+        "description": "Oracle's IaaS hosting",
         "category": 6
       },
       {
         "id": 13,
         "name": "Visu test server",
         "image": "img/blue/sq_server_blue.svg",
-        "description": "desc",
+        "description": "hosted in MS Az",
         "category": 7
       },
       {
