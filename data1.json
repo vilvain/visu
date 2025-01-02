@@ -136,21 +136,21 @@
       {
         "id": 20,
         "name": "Device authentication",
-        "image": "img/blue/sq_firewall_blue.svg",
+        "image": "img/green/sq_user_green.svg",
         "description": "802.1x authentication to connect to the network",
         "category": 1
       },
       {
         "id": 21,
         "name": "Network encryption",
-        "image": "img/red/sq_firewall_red.svg",
+        "image": "img/red/sq_hub_red.svg.svg",
         "description": "Network level encryption of the traffic to the Edge",
         "category": 1
       },
       {
         "id": 22,
         "name": "Network encryption",
-        "image": "img/red/sq_firewall_red.svg",
+        "image": "img/red/sq_hub_red_svg.svg",
         "description": "Network level encryption of the traffic to the Edge",
         "category": 2
       }
