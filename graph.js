@@ -33,6 +33,10 @@ var simulation = d3.forceSimulation()
             d.source = d.source_id;    
             d.target = d.target_id;
         }
+        else{
+            console.log("virhe:"+d.tags);
+        }
+
         });           
         
     var link = svg.selectAll("line")
