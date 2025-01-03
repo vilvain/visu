@@ -42,7 +42,7 @@ var simulation = d3.forceSimulation()
         d.target = d.target_id;
         });
 
-    graph.links.filter(function(d){return d.tags =="worksattion,office,remote"})        
+    graph.links.filter(function(d){return d.tags =="workstation,office,remote"})        
         
     var link = svg.selectAll("line")
                 .data(graph.links)
