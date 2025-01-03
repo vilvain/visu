@@ -27,7 +27,8 @@ var simulation = d3.forceSimulation()
     d3.json(data).then(function(graph) {
         graph.links.forEach(function(d){
             //alert(d.tags);
-            console.log("ennen if:"+d.title+" / "+d.tags);
+        //console.log("ennen if:"+d.title+" / "+d.tags);
+        /*
         if(d.tags.includes("workstation"))
         {
             d.source = d.source_id;    
@@ -36,7 +37,7 @@ var simulation = d3.forceSimulation()
         else{
             console.log("virhe:"+d.tags);
         }
-
+        */
         });           
         
     var link = svg.selectAll("line")
