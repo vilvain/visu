@@ -40,7 +40,9 @@ var simulation = d3.forceSimulation()
         */
         d.source = d.source_id;    
         d.target = d.target_id;
-        });           
+        });
+
+    graph.links.filter(function(d){return d.tags =="worksattion,office,remote"})        
         
     var link = svg.selectAll("line")
                 .data(graph.links)
