@@ -38,6 +38,8 @@ var simulation = d3.forceSimulation()
             console.log("virhe:"+d.tags);
         }
         */
+        d.source = d.source_id;    
+        d.target = d.target_id;
         });           
         
     var link = svg.selectAll("line")
