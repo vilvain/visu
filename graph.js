@@ -29,6 +29,7 @@ var simulation = d3.forceSimulation()
             //alert(d.tags);
         if(d.tags.includes("workstation"))
         {
+            alert(d.tags);
             d.source = d.source_id;    
             d.target = d.target_id;
         }
